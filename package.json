@@ -1,0 +1,28 @@
+{
+  "name": "veggy-clone",
+  "version": "0.0.1",
+  "description": "Vegeterian Food Blog Template",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Umiii/veggyClone.git"
+  },
+  "keywords": [
+    "Bootstrap",
+    "SCSS",
+    "JS"
+  ],
+  "author": "Umi Ikem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Umiii/veggyClone/issues"
+  },
+  "homepage": "https://github.com/Umiii/veggyClone#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}

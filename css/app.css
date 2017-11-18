@@ -1,0 +1,55 @@
+
+
+/*************************
+*****   Base Styles   ****
+**************************/
+
+body {
+    font-family: 'Josefin Slab', serif;
+    color:#121212;
+    letter-spacing: 1px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Maven Pro', sans-serif;
+    text-transform: uppercase;
+    margin:0;
+    color:#8e8e8e;
+}
+
+
+a:focus {
+    outline:none;
+    outline-offset: 0;
+}
+
+a {
+    -webkit-transition:all 500ms ease-out;
+    -moz-transition:all 500ms ease-out;
+    -o-transition:all 500ms ease-out;
+    transition:all 500ms ease-out;
+    text-decoration:none;
+}
+
+a:hover
+{
+    text-underline: none;
+}
+
+ul
+{
+    padding:0;
+}
+
+ul li
+{
+    list-style:none;
+}
+
+/*************************
+*****   Navigation    ****
+**************************/
+
+.nav-toggle
+{
+    display:block;
+}
