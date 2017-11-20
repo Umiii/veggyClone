@@ -1,10 +1,42 @@
+
 @media only screen and  (min-width: 768px) {
 
 }
 
 @media only screen and  (min-width: 1024px) {
-    .nav-toggle
+    .logo-container
+    {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+    }
+
+    .brand
     {
         display:none;
+    }
+
+    button.nav-toggle
+    {
+        display:none;
+    }
+
+    .main-nav
+    {
+        display:flex;
+        justify-content: center;
+        align-items:center;
+    }
+
+    .nav-list
+    {
+        display:block;
+    }
+
+    .nav-list li
+    {
+        display:inline;
+        margin-right:0.7rem;
     }
 }

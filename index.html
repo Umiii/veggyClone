@@ -5,23 +5,63 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Vegetarian Blog Template</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/app.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/slick.css" rel="stylesheet">
+
     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:400,700|Maven+Pro:400,700" rel="stylesheet">
+
+    <script src="https://use.fontawesome.com/a702fc9918.js"></script>
 </head>
 <body>
     <header>
-        <div class="container">
-            <button class="nav-toggle"></button>
+        <button class="nav-toggle"><i class="fa fa-bars" aria-hidden="true"></i></button>
+        <div class="logo-container">
+           <a href="index.html" class="brand"><img src="images/veggy-clone-logo.png" alt="logo image"></a>
             <nav class="main-nav fixed">
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                <ul class="nav-list">
+                    <li><a href="" class="nav-list__link">Home</a></li>
+                    <li><a href="" class="nav-list__link">Blog</a></li>
+                    <li><a href="index.html" class="logo"><img src="images/veggy-clone-logo.png" alt="logo image"></a></li>
+                    <li><a href="" class="nav-list__link">Recipes</a></li>
+                    <li><a href="" class="nav-list__link">Contact</a></li>
                 </ul>
             </nav>
-
         </div>
+
+        <div class="slick-carousel">
+
+            <div>
+                <img src="images/slide-1.jpg" alt="Slider Image" class="img-fluid">
+                <div class="caption-text">
+                    <div class="text-center">
+                        <h2>Office Supplies & Stationary</h2>
+                        <p> vTabernacle is your one stop vendor for stationary items
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <img src="images/slide-2.jpg" alt="Slider Image" class="img-fluid">
+                <div class="caption-text">
+                    <div class="text-center">
+                        <h2>Office Supplies & Stationary</h2>
+                        <p> vTabernacle is your one stop vendor for stationary items
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>  <!-- end of slick-carousel -->
     </header>
+
+    <script
+            src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+            crossorigin="anonymous"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
 </html>

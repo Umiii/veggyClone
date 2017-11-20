@@ -16,12 +16,6 @@ h1, h2, h3, h4, h5, h6 {
     color:#8e8e8e;
 }
 
-
-a:focus {
-    outline:none;
-    outline-offset: 0;
-}
-
 a {
     -webkit-transition:all 500ms ease-out;
     -moz-transition:all 500ms ease-out;
@@ -30,9 +24,26 @@ a {
     text-decoration:none;
 }
 
+a:focus {
+    outline:none;
+    outline-offset: 0;
+}
+
 a:hover
 {
     text-underline: none;
+}
+
+/*reset bootstrap button appearance */
+button
+{
+    background:none !important;
+    border:0 !important;
+}
+button:focus
+{
+    outline:none;
+    border:0;
 }
 
 ul
@@ -46,10 +57,73 @@ ul li
 }
 
 /*************************
-*****   Navigation    ****
+***   Header Styles   ****
+**************************/
+header
+{
+    position:relative;
+    width:100%;
+    height:100px;
+}
+
+.logo-container
+{
+    position:absolute;
+    z-index:99;
+}
+
+.brand
+{
+    display:flex;
+}
+
+button.nav-toggle
+{
+    position:absolute;
+    display:flex;
+    top: 2.5rem;
+    right: 1rem;
+}
+
+.nav-list
+{
+    display: none;
+}
+
+
+.nav-list__link
+{
+    color:white;
+}
+/*************************
+***  Carousel Styles   ***
 **************************/
 
-.nav-toggle
+.slick-carousel .slick-arrow
 {
-    display:block;
+    top:0;
+    z-index:999;
+    bottom:0;
+    margin:auto;
+    height:40px;
+    color:rgba(255,255,255,0.7);
+    font-size:3rem;
+    display:block !important;
+    position:absolute;
 }
+
+.slick-carousel .slick-next
+{
+    right:0;
+    margin-right:0.8rem;
+}
+
+.slick-carousel .slick-prev
+{
+    left:0;
+    margin-left: 0.8rem;
+}
+
+
+
+
